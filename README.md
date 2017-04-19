@@ -39,4 +39,4 @@ See the `samples` directory for various sample algorithms.
 
 ## go-cv-simd
 
-See [go-cv-simd](https://github.com/fwessels/go-cv-simd/) for more information.
+See the underlying package [go-cv-simd](https://github.com/fwessels/go-cv-simd/) for more information.
