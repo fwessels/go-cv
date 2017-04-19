@@ -16,6 +16,21 @@ The algorithms are optimized using different SIMD CPU extensions. In particular 
 - x86/x64: SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX and AVX2
 - ARM: NEON
 
+## Installation
+
+```
+$ go get -u "github.com/fwessels/go-cv"
+```
+
+## Samples
+
+See the `samples` directory for various sample algorithms. For example:
+
+```
+$ cd samples
+$ go run filtering.go
+```
+
 ## Performance compared to OpenCV 2.x
 
 A comparison against [go-opencv](https://github.com/lazywei/go-opencv) shows the following results:
@@ -33,9 +48,6 @@ BenchmarkMedian5x5-8           883311        131812    -85.08%
 BenchmarkMedian5x5RGB-8       1246845        388415    -68.85%
 ```
 
-## Samples
-
-See the `samples` directory for various sample algorithms.
 
 ## go-cv-simd
 
