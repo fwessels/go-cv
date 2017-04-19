@@ -40,3 +40,7 @@ See the `samples` directory for various sample algorithms.
 ## go-cv-simd
 
 See the underlying package [go-cv-simd](https://github.com/fwessels/go-cv-simd/) for more information.
+
+## License
+
+go-cv is released under the Apache License v2.0. You can find the complete text in the file LICENSE.
