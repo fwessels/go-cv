@@ -18,6 +18,7 @@ import (
 	"github.com/fwessels/go-cv-simd/sse2"
 )
 
+// StretchGray2x2 stretches input 8-bit gray image in two times.
 func StretchGray2x2(src, dst gocvsimd.View) {
 
 	gocvsimd.SimdSse2StretchGray2x2(src, dst)
