@@ -51,7 +51,7 @@ BenchmarkMedian5x5RGB-8       1246845        388415    -68.85%
 
 ## go-cv
 
-See the underlying package [go-cv](https://github.com/fwessels/go-cv/) for more information.
+See the underlying package [go-cv-simd](https://github.com/fwessels/go-cv-simd/) for more information.
 
 ## License
 
