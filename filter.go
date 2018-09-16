@@ -23,7 +23,7 @@ func filter(src gocvsimd.View, f func(src, dst gocvsimd.View)) (dst gocvsimd.Vie
 	dst = gocvsimd.View{}
 	dst.Recreate(src.GetWidth(), src.GetHeight(), src.GetFormat())
 
-	gocvsimd.SimdSse2GaussianBlur3x3(src, dst)
+	f(src, dst)
 
 	return dst
 }
